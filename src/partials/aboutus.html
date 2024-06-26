@@ -1,5 +1,5 @@
 <section class="container-about">
-  <div class="container-about-box">
+  <div class=" container container-about-box">
     <div class="about-box">
       <h2 class="about-title">About Us</h2>
       <p class="about-descri">
@@ -16,13 +16,31 @@
       <button class="about-btn" type="button">View catalog</button>
     </div>
     <div class="container-about-image">
-      <img
-        class="about-images"
-        src="/images/aboutus/rectangle.jpg"
-        alt="rectangle"
-        width="530"
-        height="532"
-      />
+     <picture class="about-picture">
+      <source
+      srcset="
+      /images/aboutus/rectangle desck 1x.jpg 1x, 
+      /images/aboutus/rectangle-desk 2x.jpg 2x"
+      media="(min-width: 1280px)"
+      >
+      <source
+      srcset="
+      /images/aboutus/rectangle tab 1x.jpg 1x, 
+      /images/aboutus/rectangle tab 2x.jpg 2x"
+      media="(min-width: 768px)"
+      >
+      <source
+      srcset="
+      /images/aboutus/rectangle mob 1x.jpg 1x, 
+      /images/aboutus/rectangle mob 2x.jpg 2x"
+      media="(min-width: 320px)"
+      >
+        <img
+          class="about-images"
+          src="../images/aboutus/rectangle desc 1x.jpg"
+          alt="rectangle"
+        />
+     </picture>
     </div>
   </div>
 </section>
