@@ -8,5 +8,22 @@
 @import url('./general.css');
 
 
+/* Підключення секцій */
 
 @import url('./header.css');
+
+@import url('./hero.css');
+
+@import url('./aboutus.css');
+
+@import url('./catalog.css');
+
+@import url('./advertisement.css');
+
+@import url('./sale.css');
+
+@import url('./reviews.css');
+
+@import url('./contactus.css');
+
+@import url('./footer.css');

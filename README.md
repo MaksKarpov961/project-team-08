@@ -35,7 +35,8 @@ git push - відправляємо зміни на сайт GitHub
 class: catalog-item  choose-title
 img: sale-clock1  reviews-fone
 
-
+Дошка трелло
+https://trello.com/invite/b/RzckXxqO/ATTIa38300fc8d0eeebd79fcbad347a69ebe337C739F/watch-charm
 
 Вимоги до проекту
 https://docs.google.com/document/d/1x6QWeDRL-KhO1km5csniZrjHLhiCn70tVj3O0_vz_aY/edit
@@ -45,6 +46,8 @@ https://www.figma.com/file/bskxhpmeboUK1NnQIkHTRi/WatchCharm?type=design&node-id
 
 ТЗ
 https://docs.google.com/spreadsheets/d/1XM4gPtEVEcWXa60wLNlLlrAB8ujFh8qCM1CvJw6sqs0/edit?usp=sharing
+
+
 
 
 
