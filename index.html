@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/project-team-08/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-team-08/assets/index-18a6f7fc.css">
+    <link rel="stylesheet" href="/project-team-08/assets/index-fbf137e6.css">
   </head>
   <body>
     <!-- header -->
@@ -120,7 +120,7 @@
 
 </section>
       <section class="container-about">
-  <div class="container-about-box">
+  <div class="container container-about-box">
     <div class="about-box">
       <h2 class="about-title">About Us</h2>
       <p class="about-descri">
@@ -137,13 +137,22 @@
       <button class="about-btn" type="button">View catalog</button>
     </div>
     <div class="container-about-image">
-      <img
-        class="about-images"
-        src="/project-team-08/assets/rectangle-c92686b0.jpg"
-        alt="rectangle"
-        width="530"
-        height="532"
-      />
+      <picture class="about-picture">
+        <source srcset="/project-team-08/assets/rectangle-desc-6e53a7ca.jpg 1x, /project-team-08/assets/rectangle-desc-2x-5224350d.jpg 2x"
+        media="(min-width: 1280px)"
+        >
+        <source srcset="/project-team-08/assets/rectangle-tab-0b8bed5c.jpg 1x, /project-team-08/assets/rectangle-tab-2x-3b0e0656.jpg 2x"
+        media="(min-width: 768px)"
+        >
+        <source srcset="../images/aboutus/rectangle-mob.jpg 1x, /images/aboutus/rectangle-mob-2x.jpg 2x"
+        media="(min-width: 320px)"
+        >
+        <img
+          class="about-images"
+          src="/project-team-08/assets/rectangle-mob-e16dc61e.jpg"
+          alt="rectangle"
+        />
+      </picture>
     </div>
   </div>
 </section>
