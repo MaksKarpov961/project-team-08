@@ -1,0 +1,82 @@
+<section class="section section-contactus">
+  <div class="container contactus-container">
+    <h2 class="contactus-title">Contact Us</h2>
+    <div class="contactus-wrapper">
+      <div class="contactus-form-box">
+        <p class="contactus-descr">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form action="#">
+          <div class="contactus-input-wrapper">
+            <label class="visually-hidden" for="username">Name</label>
+            <input
+              class="contactus-form-input"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Name"
+            />
+            <div class="contactus-input-wrapper">
+              <label class="visually-hidden" for="useremail">Email</label>
+              <input
+                class="contactus-form-input"
+                type="email"
+                name="useremail"
+                id="useremail"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="contactus-input-wrapper">
+            <label class="visually-hidden" for="userphone">tell</label>
+            <input
+              class="contactus-form-input"
+              type="tel"
+              name="userphone"
+              id="userphone"
+              placeholder="+380"
+            />
+          </div>
+          <div class="contactus-input-wrapper">
+            <label class="visually-hidden" for="user-comment">Comment</label>
+            <textarea
+              class="contactus-form-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <input class="contactus-form-send" type="submit" value="Send" />
+        </form>
+      </div>
+      <picture class="contactus-picture">
+        <source
+          srcset="
+            /images/contactus/rectangle-desk.jpg    1x,
+            /images/contactus/rectangle-desk@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            /images/contactus/rectangle-tablet.jpg    1x,
+            /images/contactus/rectangle-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /images/contactus/rectangle-mobile.jpg    1x,
+            /images/contactus/rectangle-mobile@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/images/contactus/rectangle-mobile.jpg"
+          alt="a clock on rock"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
