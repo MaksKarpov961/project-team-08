@@ -37,7 +37,7 @@
 .adv-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
@@ -46,7 +46,7 @@
   height: 48px;
   background-color: transparent;
   cursor: pointer;
-  padding: 15px 43px;
+  padding: 15px 42px;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,6 +95,7 @@
   }
 
   .adv-link {
+    display: flex;
     align-items: baseline;
   }
 }
