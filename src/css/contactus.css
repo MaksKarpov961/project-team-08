@@ -4,10 +4,6 @@
   margin-bottom: 30px;
 }
 
-.contactus-container {
-
-}
-
 .contactus-title {
   font-weight: 600;
   font-size: 32px;
@@ -45,9 +41,7 @@
   gap: 18px;
 }
 
-.contactus-input-wrapper {
 
-}
 
 .contactus-form-input {
   border: 1px solid rgba(12, 12, 12, 0.15);
@@ -108,9 +102,6 @@
   background-color: #1f3cd4;
 }
 
-.contactus-picture {
-
-}
 
 
 
