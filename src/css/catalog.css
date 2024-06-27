@@ -79,11 +79,10 @@ text-align: center;
 background: #3350e9;
 width: 160px;
 height: 48px;
-border: 1px solid;
 border-radius: 16px; 
 color: #fbfbfb;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-margin: 40px auto 60px;
+margin: 15px 44px;
 }
 
 
@@ -129,6 +128,10 @@ margin: 40px auto 60px;
         height: 44px;
     }
 
+    .catalog-btn {
+        display: none;
+    }
+
 }
 
 
@@ -171,5 +174,9 @@ margin: 40px auto 60px;
         margin: 10px auto 24px;
         width: 279px;
         height: 44px;
+    }
+
+    .catalog-btn {
+        display: none;
     }
 }
