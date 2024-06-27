@@ -74,6 +74,7 @@ font-size: 14px;
 line-height: 129%;
 text-align: center;
 background: #3350e9;
+cursor: pointer;
 width: 160px;
 height: 48px;
 border: 1px solid #3350e9;
@@ -83,6 +84,11 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 margin: 40px 88px 0;
 }
 
+.catalog-btn:hover,
+.catalog-btn:focus {
+background: #1f3cd4;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .img-none {
   display: none;  
