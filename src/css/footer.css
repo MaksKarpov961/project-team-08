@@ -1,12 +1,14 @@
 .footer {
   max-width: 375px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 .footer-container {
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   width: 335px;
+  
 }
 .footer-container-logo {
 }
