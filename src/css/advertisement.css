@@ -1,6 +1,6 @@
 .adv-container {
   padding: 60px 28px;
-  background-image: url(../images/advertisement/adv-mob.jpg);
+  background-image: url(../images/advertisement/adv-mob.png);
   background-color: #0c0c0c;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,11 +14,11 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .adv-container {
-    background-image: url(../images/advertisement/adv-mob-2x.jpg);
+    background-image: url(../images/advertisement/adv-mob-2x.png);
   }
 }
 
-.adv-title {
+.adv-text {
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
@@ -30,11 +30,11 @@
   margin-bottom: 28px;
 }
 
-.adv-title-span {
+.adv-text-span {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.adv-button {
+.adv-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -45,12 +45,14 @@
   width: 160px;
   height: 48px;
   background-color: transparent;
+  cursor: pointer;
+  padding: 15px 43px;
 }
 
 @media screen and (min-width: 768px) {
   .adv-container {
     padding: 80px 64px;
-    background-image: url(../images/advertisement/adv-tab.jpg);
+    background-image: url(../images/advertisement/adv-tab.png);
     width: 704px;
   }
 
@@ -58,11 +60,11 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .adv-container {
-      background-image: url(../images/advertisement/adv-tab-2x.jpg);
+      background-image: url(../images/advertisement/adv-tab-2x.png);
     }
   }
 
-  .adv-title {
+  .adv-text {
     font-size: 48px;
     line-height: 0.92;
     width: 576px;
@@ -73,7 +75,7 @@
 @media screen and (min-width: 1280px) {
   .adv-container {
     padding: 83px 80px;
-    background-image: url(../images/advertisement/adv-desc.jpg);
+    background-image: url(../images/advertisement/adv-desk.png);
     width: 1150px;
     display: flex;
   }
@@ -82,17 +84,17 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .adv-container {
-      background-image: url(../images/advertisement/adv-desc-2x.jpg);
+      background-image: url(../images/advertisement/adv-desk-2x.png);
     }
   }
 
-  .adv-title {
+  .adv-text {
     width: 690px;
     margin: 0;
     margin-right: 140px;
   }
 
-  .adv-button {
+  .adv-link {
     align-items: baseline;
   }
 }
