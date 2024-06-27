@@ -4,6 +4,11 @@ body {
   color: #0c0c0c;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -43,5 +48,10 @@ body {
 
   .section {
     padding: 50px 0;
+  }
+
+  html,
+  body {
+    overflow-x: auto;
   }
 }
