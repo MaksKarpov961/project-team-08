@@ -1,0 +1,147 @@
+
+.catalog-title {
+font-weight: 600;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+margin-bottom: 24px;
+}
+
+.section-catalog {
+padding: 0px 20px;
+width: 335px;
+height: 1604px;
+}
+
+.catalog-list {
+display: flex;
+flex-direction: column;
+row-gap: 48px;
+}
+
+.catalog-list-img {
+display: flex;
+align-content: center;
+margin: 18px auto;
+}
+
+.catalog-item {
+position: relative;
+overflow: hidden;
+margin: 0 auto;
+width: 335px;
+height: 364px;
+border: 1px solid rgba(12, 12, 12, 0.05);
+border-radius: 30px;
+background-color: #f3f3f3;
+
+}
+
+.catalog-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+}
+
+.catalog-price {
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-list-text {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+margin: 0 auto 24px;
+width: 279px;
+height: 44px;
+}
+
+.catalog-button {
+    display: flex;
+}
+
+.catalog-btn {
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+background: #3350e9;
+width: 160px;
+height: 48px;
+border: 1px solid #3350e9;
+border-radius: 16px; 
+color: #fbfbfb;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+margin: 40px 88px 0;
+}
+
+
+.img-none {
+  display: none;  
+}
+
+
+@media screen and (min-width: 768px) {
+    .catalog-title{
+        font-size: 48px;
+    }
+
+    .section-catalog {
+        width: 704px;
+    }
+
+    .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 16px;
+    justify-content: center;
+    }
+
+    .catalog-item {
+    width: calc((100% - 48px) / 2);
+    }
+
+    .img-none {
+        display: inline-block
+    }
+    
+    .catalog-btn {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .section-catalog {
+        width: 1280px;
+    }
+
+    .catalog-title {
+        font-size: 48px;
+    }
+
+    .catalog-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px 24px;
+        justify-content: center;
+    }
+
+     .catalog-item {
+         width: calc((100% - 48px) / 3);
+    }
+
+    .catalog-btn {
+        display: none;
+    }
+}
