@@ -7,7 +7,7 @@
           Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <form action="#">
+        <form class="contactus-form" action="#">
           <div class="contactus-input-wrapper">
             <label class="visually-hidden" for="username">Name</label>
             <input
@@ -16,26 +16,32 @@
               name="username"
               id="username"
               placeholder="Name"
+              required
             />
-            <div class="contactus-input-wrapper">
-              <label class="visually-hidden" for="useremail">Email</label>
-              <input
-                class="contactus-form-input"
-                type="email"
-                name="useremail"
-                id="useremail"
-                placeholder="Email"
-              />
-            </div>
           </div>
+          <div class="contactus-input-wrapper">
+            <label class="visually-hidden" for="useremail">Email</label>
+            <input
+              class="contactus-form-input"
+              type="email"
+              name="useremail"
+              id="useremail"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+
           <div class="contactus-input-wrapper">
             <label class="visually-hidden" for="userphone">tell</label>
             <input
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
               class="contactus-form-input"
               type="tel"
               name="userphone"
               id="userphone"
               placeholder="+380"
+              required
             />
           </div>
           <div class="contactus-input-wrapper">
@@ -45,9 +51,10 @@
               name="user-comment"
               id="user-comment"
               placeholder="Comment"
+              rows="1"
             ></textarea>
           </div>
-          <input class="contactus-form-send" type="submit" value="Send" />
+          <button class="contactus-form-send" type="submit">Send</button>
         </form>
       </div>
       <picture class="contactus-picture">

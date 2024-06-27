@@ -5,6 +5,11 @@ body {
 }
 
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -35,6 +40,10 @@ body {
 }
 .section {
   padding: 40px 0;
+}
+html,
+body {
+  overflow-x: auto;
 }
 
 }
