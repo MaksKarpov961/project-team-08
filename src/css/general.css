@@ -1,9 +1,13 @@
 body {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
   color: #0c0c0c;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 
 .visually-hidden {
   position: absolute;
@@ -19,36 +23,37 @@ body {
 }
 
 .container {
-  max-width: 365px;
+  max-width: 375px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
-
 
 .section {
   padding: 30px 0;
 }
 
 @media screen and (min-width: 768px) {
-.container {
-  max-width: 734px;
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .section {
+    padding: 40px 0;
+  }
 }
-.section {
-  padding: 40px 0;
-}
-
-}
-
-
 
 @media screen and (min-width: 1280px) {
-.container {
-  max-width: 1180px;
-  
-}
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
 
-.section {
-  padding: 50px 0;
-}
+  .section {
+    padding: 50px 0;
+  }
 
+  html,
+  body {
+    overflow-x: auto;
+  }
 }
