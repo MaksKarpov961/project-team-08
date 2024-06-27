@@ -45,7 +45,7 @@
     margin-bottom: 24px;
   }
   .reviews-list {
-    margin: 0 auto;
+    gap: 20px;
   }
   .reviews-items {
     display: flex;
@@ -93,6 +93,7 @@
     .reviews-items {
       max-width: 344px;
       height: 272px;
+      display: none;
     }
     .reviews-list-title {
       font-size: 18px;
@@ -109,5 +110,6 @@
     }
     .reviews-items {
       max-width: 370px;
+      display: none;
     }
   }
