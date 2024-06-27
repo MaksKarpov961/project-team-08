@@ -79,6 +79,22 @@
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
   }
+
+
+  @media (max-width: 767px) {
+    .reviews-list .swiper-slide:nth-child(n + 2) {
+      display: none; 
+    }
+  }
+
+  
+  @media (min-width: 768px) and (max-width: 1279px) {
+    .reviews-list .swiper-slide:nth-child(n + 3) {
+      display: none;
+    }
+  }
+
+
   @media screen and (min-width: 768px) {
     .reviews-title {
       font-weight: 600;
