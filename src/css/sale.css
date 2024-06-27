@@ -9,6 +9,7 @@
   border-radius: 16px;
   width: 80px;
   height: 80px;
+  background: #f3f3f3;
 }
 
 .sale-slider-img {
@@ -16,11 +17,26 @@
   height: 54px;
 }
 
+.sale-slider-img-main {
+  width: 328px;
+  height: 398px;
+}
+.sale-list-main {
+}
+.sale-item-main {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  width: 552px;
+  height: 558px;
+  background: #f3f3f3;
+}
+
 .sale-container {
   background: #3350e9;
   border-radius: 30px;
   width: 335px;
   height: 561px;
+  padding: 48px 28px;
 }
 
 .title {
@@ -29,6 +45,7 @@
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  margin-bottom: 10px;
 }
 
 .under-title {
@@ -37,14 +54,7 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
-}
-
-.text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 20px;
 }
 
 .price {
@@ -53,11 +63,13 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-
+  border: none;
   border-radius: 8px;
   width: 68px;
   height: 32px;
   background: rgba(251, 251, 251, 0.1);
+  margin-bottom: 28px;
+  margin-right: 9px;
 }
 .old-price {
   font-weight: 400;
@@ -67,12 +79,27 @@
   text-decoration: line-through;
   color: rgba(251, 251, 251, 0.5);
 }
+
+.text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
 .assortment {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
   gap: 8px;
+  max-width: 279px;
 }
 .option {
   font-weight: 500;
@@ -84,6 +111,7 @@
   padding: 8px 12px;
   width: 128px;
   height: 32px;
+  display: flex;
 }
 
 @media screen and (min-width: 768px) {
