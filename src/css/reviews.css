@@ -45,7 +45,7 @@
     margin-bottom: 24px;
   }
   .reviews-list {
-    margin: 0 auto;
+    gap: 20px;
   }
   .reviews-items {
     display: flex;
