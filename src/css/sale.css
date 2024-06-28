@@ -7,6 +7,7 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 .sale-slider-item {
@@ -120,18 +121,21 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
   padding: 8px 12px;
-
   display: flex;
 }
 
 @media screen and (min-width: 768px) {
+  .slider {
+    display: flex;
+    gap: 20px;
+  }
+
   .sale-slider-list {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
-    margin-right: 20px;
   }
 
   .sale-slider-item {
@@ -195,6 +199,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale {
+    display: flex;
+  }
+
   .sale-container {
     width: 530px;
     height: 558px;
