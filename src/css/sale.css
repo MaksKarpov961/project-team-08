@@ -1,3 +1,12 @@
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
 .slider {
   margin-bottom: 20px;
 }
@@ -125,6 +134,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.91;
+  }
+
   .slider {
     display: flex;
     gap: 20px;
@@ -199,8 +214,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-title {
+  }
+
   .sale {
     display: flex;
+    gap: 40px;
   }
 
   .sale-container {
