@@ -1,1 +1,1 @@
-import './js/open-menu.js'
+import './js/open-menu.js';
