@@ -42,6 +42,8 @@
 .hero-list-item {
 	display: flex;
 	align-items: center;
+	width: 44px;
+	height: 44px;
 }
 
 .hero-list-item:not(:first-child) {
@@ -67,4 +69,50 @@
 	color: #3350e9;
 }
 
+/* як би не було умови про контенте зображення, то 
+тут би було просто, а так треба робити як фон для
+модального вікна. зроблю трошки пізніше */
 .hero-img {}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		padding-top: 80px;
+	}
+
+	.hero-title {
+		font-size: 70px;
+		line-height: 0.86;
+	}
+
+	.hero-text {
+		font-size: 16px;
+		line-height: 1.25;
+		letter-spacing: -0.02em;
+		padding-right: 77px;
+	}
+
+	.hero-list-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hero-hat {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hero-wrapper {
+		display: flex;
+	}
+
+	.hero-list-item {
+		width: 56px;
+		height: 56px;
+	}
+
+	.hero-link {
+		font-size: 20px;
+		line-height: 1.0;
+		letter-spacing: -0.02em;
+	}
+}
