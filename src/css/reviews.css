@@ -96,7 +96,7 @@
     .reviews-items {
       max-width: 344px;
       height: 272px;
-      display: none;
+     
     }
     .reviews-list-title {
       font-size: 18px;
@@ -113,6 +113,6 @@
     }
     .reviews-items {
       max-width: 370px;
-      display: none;
+      
     }
   }
