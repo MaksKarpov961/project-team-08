@@ -113,5 +113,6 @@
     }
     .reviews-items {
       max-width: 370px;
+      display: none;
     }
   }
