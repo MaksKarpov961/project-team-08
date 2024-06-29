@@ -2,6 +2,10 @@
 	padding-top: 60px;
 }
 
+.hero-wrapper {
+	margin-bottom: 28px;
+}
+
 .hero-hat {
 	margin-bottom: 28px;
 }
@@ -32,7 +36,6 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin-bottom: 28px;
 }
 
 .hero-list {
@@ -99,6 +102,7 @@
 	.hero-hat {
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 0px;
 	}
 
 	.hero-wrapper {
@@ -119,7 +123,7 @@
 
 @media screen and (min-width: 1280px) {
 
-	.hero-wrapper: {
+	.hero-wrapper {
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 40px;
@@ -137,9 +141,6 @@
 
 	.hero-hat {
 		max-width: 597px;
-		margin-bottom: 40px;
 	}
-
-
 
 }
