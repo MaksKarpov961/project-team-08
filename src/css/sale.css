@@ -1,3 +1,12 @@
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
 .slider {
   margin-bottom: 20px;
 }
@@ -7,6 +16,7 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 5px;
+  flex-wrap: wrap;
 }
 
 .sale-slider-item {
@@ -120,18 +130,27 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
   padding: 8px 12px;
-
   display: flex;
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.91;
+  }
+
+  .slider {
+    display: flex;
+    gap: 20px;
+  }
+
   .sale-slider-list {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
-    margin-right: 20px;
   }
 
   .sale-slider-item {
@@ -195,6 +214,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-title {
+  }
+
+  .sale {
+    display: flex;
+    gap: 40px;
+  }
+
   .sale-container {
     width: 530px;
     height: 558px;
