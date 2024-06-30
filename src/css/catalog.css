@@ -23,7 +23,7 @@ row-gap: 48px;
 .catalog-list-img {
 display: flex;
 align-content: center;
-margin: 18px auto;
+margin: 24px auto 10px;
 }
 
 .catalog-item {
@@ -31,12 +31,64 @@ position: relative;
 overflow: hidden;
 margin: 0 auto;
 width: 335px;
-height: 364px;
+height: 340px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background-color: #f3f3f3;
-
 }
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.flip-card-back {
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.5);
+    background-color: #f3f3f3;
+    transform: rotateY(180deg);
+}
+
+.catalog-text-flip {
+    margin: 20px;
+}
+
+
 
 .catalog-text {
 font-weight: 500;
@@ -59,7 +111,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 gap: 8px;
-margin: 0 auto 24px;
+margin: 0 32px 24px;
 width: 279px;
 height: 44px;
 }
