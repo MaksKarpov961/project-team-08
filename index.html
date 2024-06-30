@@ -14,14 +14,13 @@
     />
     
     <script type="module" crossorigin src="/project-team-08/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-team-08/assets/index-34ab5e3a.css">
+    <link rel="stylesheet" href="/project-team-08/assets/index-e4ddf0a2.css">
   </head>
   <body>
     <!-- header -->
 
 <header class="header">
   <div class="header-nav-container container">
-
     <a class="header-logo" href="#top">watchcharm</a>
 
     <nav class="header-nav">
@@ -49,24 +48,36 @@
 
     <ul class="header-social-list">
       <li class="header-social-list-item">
-        <a class="header-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.facebook.com/goITclub/">
+        <a
+          class="header-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/goITclub/"
+        >
           <svg class="header-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="header-social-list-item">
-        <a class="header-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.instagram.com/goitclub/">
+        <a
+          class="header-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/goitclub/"
+        >
           <svg class="header-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="header-social-list-item">
-        <a class="header-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.youtube.com/c/GoIT">
+        <a
+          class="header-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.youtube.com/c/GoIT"
+        >
           <svg class="header-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-youtube"></use>
           </svg>
@@ -74,7 +85,12 @@
       </li>
     </ul>
 
-    <button class="header-button" type="button" open-mobile-menu>
+    <button
+      class="header-button js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       <svg class="header-button-icon" width="34" height="34">
         <use href="/project-team-08/assets/icons-358ea086.svg#icon-menu"></use>
       </svg>
@@ -82,10 +98,10 @@
   </div>
 </header>
 <!-- mobile menu -->
-<div class="mobile-menu-container" mobile-menu-container>
+<div class="mobile-menu-container js-menu-container" id="mobile-menu">
   <div class="mobile-menu">
-    <button class="mobile-menu-close-button" close-mobile-menu>
-      <svg class="mobile-menu-close-icon">
+    <button class="mobile-menu-close-button js-close-menu">
+      <svg width="40" height="40" class="mobile-menu-close-icon">
         <use href="/project-team-08/assets/icons-358ea086.svg#icon-close"></use>
       </svg>
     </button>
@@ -115,24 +131,36 @@
 
     <ul class="mobile-social-list">
       <li class="mobile-social-list-item">
-        <a class="mobile-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.facebook.com/goITclub/">
+        <a
+          class="mobile-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/goITclub/"
+        >
           <svg class="mobile-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="mobile-social-list-item">
-        <a class="mobile-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.instagram.com/goitclub/">
+        <a
+          class="mobile-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/goitclub/"
+        >
           <svg class="mobile-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="mobile-social-list-item">
-        <a class="mobile-social-list-link" target="_blank" rel="noopener noreferrer"
-          href="https://www.youtube.com/c/GoIT">
+        <a
+          class="mobile-social-list-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.youtube.com/c/GoIT"
+        >
           <svg class="mobile-social-list-icon" width="20" height="20">
             <use href="/project-team-08/assets/icons-358ea086.svg#icon-youtube"></use>
           </svg>
@@ -141,6 +169,7 @@
     </ul>
   </div>
 </div>
+
     <main>
       <section class="hero section" id="hero">
   <div class="container">
@@ -782,6 +811,12 @@
 </footer>
 
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
