@@ -1,12 +1,4 @@
 
-
-
-.container-about {
-
-}
-
-
-
 .container-about-box {
   display: flex;
   flex-direction: column;
@@ -63,17 +55,6 @@
   background-color: #1f3cd4;
 }
 
-
-
-.container-about-image {
-
-}
-
-
-
-.about-images {
-
-}
 
   @media screen and (min-width: 768px) {
   

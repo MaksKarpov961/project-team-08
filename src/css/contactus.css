@@ -124,10 +124,14 @@
 
 .contactus-wrapper {
   gap: 40px;
+  
 }
 
 .contactus-title{
   margin-bottom: 40px;
+  font-size: 48px;  
+  line-height: 0.91;
+
 }
 
 .contactus-descr{
@@ -179,7 +183,6 @@
 .contactus-form-box {
   padding: 50px 60px;
 }
-
 
 
 
