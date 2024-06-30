@@ -162,7 +162,7 @@
   pointer-events: none;
 
   opacity: 0;
-  transition: opacity 250ms
+  transition: opacity 250ms linear;
 }
 
 .mobile-menu-container.is-open{
