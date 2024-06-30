@@ -107,7 +107,7 @@
     margin: 20px 0 0;
   }
   .catalog-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 16px) / 2);
     padding: 24px 32px;
   }
 
