@@ -7,8 +7,16 @@
   margin-bottom: 24px;
 }
 
+.sale {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
 .slider {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .sale-slider-list {
   display: flex;
@@ -142,9 +150,13 @@
   }
 
   .slider {
-    display: flex;
+    flex-direction: row;
     gap: 20px;
   }
+
+  .sale {
+  gap: 40px;
+}
 
   .sale-slider-list {
     display: flex;
@@ -215,11 +227,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .section-title {
-  }
+
 
   .sale {
-    display: flex;
+    flex-direction: row;
     gap: 40px;
   }
 
