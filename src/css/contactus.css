@@ -111,7 +111,9 @@
   background-color: #1f3cd4;
 }
 
-
+.contactus-picture img {
+  border-radius: 30px;
+}
 
 
 
@@ -130,6 +132,9 @@
 
 }
 
+.contactus-picture img {
+  border-radius: 50px;
+}
 
 .contactus-wrapper {
   gap: 40px;
