@@ -20,9 +20,9 @@
 }
 
 .catalog-list-img {
-  display: flex;
-  align-content: center;
-  margin: 24px auto 10px;
+    display: flex;
+    height: auto;
+    margin: 0 auto;
 }
 
 .catalog-item {
@@ -34,6 +34,7 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background-color: #f3f3f3;
+  padding: 42px 28px 24px;
 }
 
 .flip-card {
@@ -65,14 +66,7 @@
 }
 
 
-.flip-card-front {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-
 .flip-card-back {
-  padding-top: 40px;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
@@ -84,7 +78,7 @@
 }
 
 .catalog-text-flip {
-  margin: 20px;
+  margin: 10px;
 }
 
 
@@ -110,9 +104,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 8px;
-  margin: 0 32px 24px;
-  width: 279px;
-  height: 44px;
 }
 
 .catalog-button {
@@ -196,9 +187,5 @@
 
   .catalog-item {
     width: calc((100% - 48px) / 3);
-  }
-
-  .catalog-btn {
-    display: none;
   }
 }
