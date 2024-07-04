@@ -59,28 +59,24 @@
 
 
 .flip-card-back {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
-  text-align: center;
+  text-align: start;
   color: rgba(12, 12, 12, 0.5);
   background-color: #f3f3f3;
   transform: rotateY(180deg);
 }
 
 .catalog-text-flip {
-  padding-top: 60px;
-  width: 300px;
   margin-bottom: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
-
-
 
 .catalog-text {
   font-weight: 500;
@@ -100,10 +96,7 @@
 }
 
 .catalog-list-text {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+  text-align: start;
 }
 
 .catalog-button {
@@ -142,7 +135,6 @@
     font-size: 48px;
   }
 
-
   .catalog-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -154,6 +146,10 @@
     width: calc((100% - 16px) / 2);
     padding: 34px 32px 24px;
     height: 414px;
+  }
+
+  .catalog-text {
+      margin-top: 20px;
   }
 
   .img-none {
